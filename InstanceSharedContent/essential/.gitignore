@@ -1,0 +1,15 @@
+# Essential Cache
+avatar-cache/
+cosmetic-cache/
+image-cache/
+screenshot-cache/
+screenshot-checksum-caches.json
+
+# Essential Environment
+libraries/
+loader/
+lwjgl3-natives/
+*jar
+
+# Metadata
+screenshot-metadata

@@ -1,0 +1,51 @@
+# Large player Files
+shaderpacks/
+resourcepacks/
+command-history.txt
+
+# Ignore Minecraft log and debug files and crash reports
+*.log
+*.log.gz
+crash-reports/
+debug/
+
+**/debug/
+**/logs/
+**/*.log
+**/*.log.gz
+**/*.bak
+
+# Ignore OS & tooling metadata files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.kate-swp
+.idea/
+
+# Ignore Prism Launcher-specific or temp files
+launcher_log.txt
+instance.cfg
+instance/
+
+# Ignore backups or autosaves some mods might create
+*.bak
+*.old
+*.tmp
+
+# Ignore any file or folder named 'cache' anywhere
+**/cache/
+**/cache/*
+**/.cache/
+**/.cache/*
+
+# Ignore other cache-related patterns (safe additions)
+**/*.cache
+**/*.tmp
+**/*_cache/
+
+# Ignore all .meta files
+*.meta
+**/*.meta
+
+# Mod Specific Configs are stored in the respective mod folder.
